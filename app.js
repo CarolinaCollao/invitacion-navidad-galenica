@@ -1,5 +1,6 @@
 // Galénica · Invitación navideña · Interacciones y animaciones
-for (const img of document.querySelectorAll('img[data-img]')) img.src=`assets/img/${img.dataset.img}.png`;
+for (const img of document.querySelectorAll('img[data-img]'))
+  img.src = `${img.dataset.img}.png`;
 const sc=document.getElementById('scroll'), env=document.getElementById('envelope'),pages=[...document.querySelectorAll('.page')];
 const music=document.getElementById('christmas-audio');
 const musicToggle=document.getElementById('music-toggle');
