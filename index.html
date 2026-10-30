@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Invitación Navideña · Galénica</title><link rel="stylesheet" href="css/styles.css"></head><body>
+<audio id="christmas-audio" preload="none" loop src="assets/audio/bajo-esta-luz.mp3"></audio><button class="music-control" id="music-toggle" type="button" aria-label="Pausar música" aria-pressed="true">♫ Música: encendida</button>
+<main id="scroll" aria-label="Invitación de Navidad de Galénica">
+<section class="page teal p1 in-view" aria-label="Compartiendo la alegría">
+ <div class="scene" aria-hidden="true">
+ <img class="sprite gift" data-img="g1" style="--pos:-204px;--startx:-900px;--delay:.12s;z-index:3;bottom:0">
+ <img class="sprite gift" data-img="g2" style="--pos:-118px;--startx:-750px;--delay:.25s;z-index:4;bottom:0">
+ <img class="sprite gift" data-img="g3" style="--pos:0px;--startx:700px;--delay:.4s;z-index:1;bottom:43px">
+ <img class="sprite gift" data-img="g4" style="--pos:65px;--startx:750px;--delay:.53s;z-index:3;bottom:0">
+ <img class="sprite gift" data-img="g5" style="--pos:153px;--startx:900px;--delay:.65s;z-index:4;bottom:0">
+ </div>
+ <div class="copy"><h2 class="eyebrow">Compartiendo la alegría</h2><h1>CENA NAVIDEÑA</h1><p>Juntos hemos alcanzado grandes metas este año. Es momento de celebrar, agradecer y compartir una noche inolvidable en equipo.</p></div><div class="hint">Desliza para descubrir ↓</div>
+</section>
+<section class="page teal p2" aria-label="Reserva esta fecha"><div class="scene" aria-hidden="true">
+ <img class="sprite" data-img="stars2" style="--x:0%;--y:0%;--w:100%;--starty:-40px;--delay:.08s;opacity:0">
+ <img class="sprite" data-img="reindeer" style="--x:-3%;--y:auto;bottom:-5%;--w:clamp(185px,39vw,330px);--startx:-120%;--startrot:-8deg;--delay:.18s">
+ <img class="sprite" data-img="nutcracker" style="--x:auto;right:0%;--y:auto;bottom:-3%;--w:clamp(115px,22vw,210px);--startx:120%;--delay:.35s">
+ </div><div class="copy"><h2 class="subtitle">Reserva esta fecha</h2><div class="date">24</div><div class="month">Diciembre</div><p class="details">Jueves · Nochebuena · 2026<br>La cena comienza a las 20:00 hrs.</p><div class="timer-label">Faltan para nuestra cena</div><div class="timer" aria-label="Cuenta regresiva"><div class="timebox"><strong id="days">--</strong><small>Días</small></div><div class="timebox"><strong id="hours">--</strong><small>Horas</small></div><div class="timebox"><strong id="minutes">--</strong><small>Min</small></div><div class="timebox"><strong id="seconds">--</strong><small>Seg</small></div></div></div></section>
+<section class="page p3" aria-label="El lugar de encuentro"><div class="scene" aria-hidden="true">
+<img class="sprite" data-img="tree" style="--x:-12%;--y:auto;bottom:-21%;--w:clamp(235px,42vw,420px);--startx:-110%;--starty:110px;--delay:.1s">
+<img class="sprite" data-img="skater" style="--x:auto;right:-12%;--y:-10%;--w:clamp(200px,34vw,335px);--startx:115%;--starty:-65px;--startrot:-15deg;--delay:.25s">
+</div><div class="copy"><h2 class="subtitle">El lugar de encuentro</h2><p><strong>Te esperamos en:</strong><br>Av. Apoquindo 6314,<br>Las Condes, Santiago</p><a class="map" href="https://maps.google.com/?q=Av.+Apoquindo+6314,+Las+Condes,+Santiago" target="_blank" rel="noopener noreferrer">Ver ubicación en Google Maps ↗</a></div></section>
+<section class="page p4" aria-label="Confirma tu asistencia"><div class="scene" aria-hidden="true">
+<img class="sprite" data-img="lights1" style="--x:-1%;--y:4%;--w:100%;--starty:-200px;--delay:.07s">
+<img class="sprite" data-img="lights2" style="--x:-1%;--y:12%;--w:100%;--starty:-220px;--delay:.2s">
+<img class="sprite" data-img="car" style="--x:1%;--y:auto;bottom:0;--w:clamp(135px,26vw,235px);--startx:-115%;--delay:.25s">
+<img class="sprite" data-img="santa" style="--x:auto;right:-6%;--y:auto;bottom:-4%;--w:clamp(165px,30vw,285px);--startx:125%;--delay:.35s">
+</div><div class="copy"><h2 class="subtitle">Confirma tu asistencia</h2><form class="form" id="rsvp"><input aria-label="Nombre completo" name="nombre" type="text" maxlength="120" placeholder="Tu nombre completo" required><label class="choice"><input type="radio" name="attendance" value="si" required> ¡Sí, asistiré!</label><label class="choice"><input type="radio" name="attendance" value="no" required> Lamentablemente no podré</label><button class="submit" type="submit">Enviar confirmación</button><span class="formnote">Demostración: no se enviarán datos.</span></form></div></section>
+<section class="page p5" aria-label="Mensaje de despedida"><div class="scene" aria-hidden="true">
+<img class="sprite" data-img="stars5" style="--x:0;--y:0;--w:100%;--starty:20px;--delay:.15s">
+<img class="sprite breathe" data-img="orn1" style="--x:0%;--y:0;--w:clamp(45px,10vw,85px);--starty:-180px;--delay:.12s">
+<img class="sprite breathe" data-img="orn2" style="--x:12%;--y:0;--w:clamp(33px,7vw,62px);--starty:-190px;--delay:.22s">
+<img class="sprite breathe" data-img="orn3" style="--x:27%;--y:0;--w:clamp(53px,11vw,92px);--starty:-200px;--delay:.32s">
+<img class="sprite breathe" data-img="orn4" style="--x:57%;--y:0;--w:clamp(61px,12vw,100px);--starty:-210px;--delay:.4s">
+<img class="sprite breathe" data-img="orn5" style="--x:auto;right:4%;--y:0;--w:clamp(33px,7vw,62px);--starty:-180px;--delay:.5s">
+</div><div class="copy"><div id="yes" class="result"><h2>¡Excelente elección!</h2><p>Nos hace muy felices contar con tu presencia esa noche. ¡Prepara tu mejor espíritu festivo para celebrar juntos!</p></div><div id="no" class="result"><h2>¡Te vamos a extrañar!</h2><p>Lamentamos mucho que no puedas acompañarnos en esta oportunidad, pero te enviamos desde ya los mejores deseos navideños.</p></div><div id="pending" class="result show"><h2>¡Felices fiestas!</h2><p>Confirma tu asistencia en la pantalla anterior para descubrir tu mensaje.</p></div><img class="brand" data-img="logo" alt="Galénica · Somos Ciencia & Tecnología"><span class="closing">Con cariño, equipo Galénica</span></div></section>
+</main>
+<div id="envelope" aria-label="Sobre de la invitación"><div class="flap top"><svg viewBox="0 0 100 100" preserveAspectRatio="none"><path fill="#f26671" d="M0 0H100L50 100Z"/></svg></div><div class="flap left"><svg viewBox="0 0 100 100" preserveAspectRatio="none"><path fill="#d44852" d="M0 0L100 50L0 100Z"/></svg></div><div class="flap right"><svg viewBox="0 0 100 100" preserveAspectRatio="none"><path fill="#d44852" d="M100 0L0 50L100 100Z"/></svg></div><div class="flap bottom"><svg viewBox="0 0 100 100" preserveAspectRatio="none"><path fill="#c93c46" d="M0 100L50 0L100 100Z"/></svg></div><button class="stamp" id="open" aria-label="Abrir invitación">ABRE<br>AQUÍ</button></div>
+<nav class="controls" aria-label="Navegación entre pantallas" id="nav" hidden><button class="dot" data-page="0" aria-label="Ir a portada"></button><button class="dot" data-page="1" aria-label="Ir a fecha"></button><button class="dot" data-page="2" aria-label="Ir a lugar"></button><button class="dot" data-page="3" aria-label="Ir a confirmación"></button><button class="dot" data-page="4" aria-label="Ir a cierre"></button><button class="skip" id="restart">Volver al inicio</button></nav>
+<script src="js/app.js" defer></script></body></html>
